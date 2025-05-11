@@ -11,7 +11,7 @@ import model.Account;
 public class AccountDao {
 	    private final String jdbcUrl = "jdbc:mysql://localhost:3306/bankdb";
 	    private final String jdbcUsername = "root";
-	    private final String jdbcPassword = "@Smehekkelaskar1";
+	    private final String jdbcPassword = "**********";
 
 	        private Connection getConnection() throws SQLException {
 	            try {
